@@ -1,0 +1,42 @@
+
+VAR
+Key characteristics of var:
+    - Function-scoped or globally-scoped
+    - Can be redeclared and reassigned
+    - Hoisted to the top of its scope
+
+LET
+Key characteristics of let:
+    - Introduced in ES6 (ECMAScript 2015), let provides block-scoping for variables
+    - Block-scoped
+    - Can be reassigned but not redeclared in the same scope
+    - Not hoisted
+
+CONST 
+Key characteristics of const:
+    - Also Introduced in ES6 in 2015
+    - Block-scoped
+    - Cannot be reassigned or redeclared
+    - Must be initialized at declaration
+    - Not hoisted
+
+Temporal Dead Zone (TDZ)
+    - The TDZ is a behavior of let and const where they cannot be accessed before declaration:
+javascript
+
+        console.log(x);  // Undefined (due to hoisting)
+        var x = 5;
+
+        console.log(y);  // ReferenceError (TDZ)
+        let y = 10;
+
+Const with Objects and Arrays
+    - While const prevents reassignment, it doesn't make objects or arrays immutable:
+
+Global Object Property
+    - Variables declared with var in the global scope become properties of the global object (window in browsers):
+
+Advanced: const and Object Freezing
+    - For true immutability with const objects, use Object.freeze():
+    - Note: Object.freeze() is shallow, nested objects can still be modified.
+

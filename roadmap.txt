@@ -1,7 +1,8 @@
 JavaScript Road Map
-Fundamentals and Syntax
 
-Variables, Data Types, Operators
+Fundamentals and Syntax:
+
+1. Variables, Data Types, Operators
     - Variables (var, let, const)
     - Data types (String, Number, Boolean, Object, Array)
     - Operators (Arithmetic, Comparison, Logical)
@@ -16,7 +17,7 @@ Variables, Data Types, Operators
     - Array methods (push, pop, map, filter, reduce)
     - DOM and Events
 
-DOM Manipulation
+2. DOM Manipulation
     - Selecting elements (querySelector, getElementById)
     - Modifying elements (textContent, innerHTML, attributes)
     - Event Listeners and Handlers
@@ -27,7 +28,7 @@ DOM Manipulation
     - Event bubbling and capturing
     - Advanced JavaScript
 
-Closures and Lexical Scope
+3. Closures and Lexical Scope
     - Understanding closures
     - Lexical scope
     - Prototypes and Inheritance
@@ -42,7 +43,7 @@ Closures and Lexical Scope
     - Debugging tools (console, debugger statement)
     - Modern JavaScript and Functional Programming
 
-ES6+ Features
+4. ES6+ Features
     - Let and const
     - Arrow functions
     - Template literals
@@ -61,7 +62,7 @@ ES6+ Features
     - TypeScript Road Map
     - TypeScript Basics and Configuration
 
-Type Annotations and Inference
+5. Type Annotations and Inference
     - Basic types
     - Type inference
     - Interfaces and Classes
@@ -75,7 +76,7 @@ Type Annotations and Inference
     - Integrating with IDEs
     - Advanced TypeScript Topics and Best Practices
 
-Generics and Conditional Types
+6. Generics and Conditional Types
     - Generic functions and classes
     - Conditional types
     - Type Guards and Assertions
@@ -90,7 +91,7 @@ Generics and Conditional Types
     - React Road Map
     - React Basics and Hooks
 
-Components and JSX
+7. Components and JSX
     - Functional and class components
     - JSX syntax
     - Props and State
@@ -105,7 +106,7 @@ Components and JSX
     - Custom hooks
     - Advanced React Topics and Best Practices
 
-Context API and Redux
+8. Context API and Redux
     - Context API
     - Redux (actions, reducers, store)
     - Routing
@@ -122,7 +123,7 @@ Context API and Redux
     - Emotion
     - Testing and Performance Optimization
 
-Testing
+9. Testing
     - Jest
     - React Testing Library
     - Snapshot testing
@@ -133,7 +134,7 @@ Testing
     - Next.js Road Map
     - Next.js Basics and Data Fetching
 
-Pages and Routing
+10. Pages and Routing
     - File-based routing
     - Link component
     - Data Fetching
@@ -149,7 +150,7 @@ Pages and Routing
     - Styled-components
     - Advanced Next.js Topics and Best Practices
 
-Optimization
+11. Optimization
     - Automatic code splitting
     - Prefetching
     - Dynamic imports
@@ -166,7 +167,7 @@ Optimization
     - Node.js Road Map
     - Node.js Basics and Core Modules
 
-Node.js Basics
+12. Node.js Basics
     - Event loop
     - Modules system (CommonJS and ES modules)
     - Global objects
@@ -188,7 +189,7 @@ Node.js Basics
     - Error handling
     - Database Integration, Authentication, and Security
 
-Database Integration
+13. Database Integration
     - MongoDB with Mongoose
     - SQL databases (e.g., PostgreSQL with Sequelize)
     - Authentication and Security
@@ -209,8 +210,9 @@ Database Integration
     - Cloud deployment (e.g., Heroku, AWS)
 
 Data Structures and Algorithms Road Map
+
+14. Data Structures
     - Data Structures and Algorithms Basics
-Data Structures
     - Arrays and linked lists
     - Stacks and queues
     - Trees and graphs
@@ -221,7 +223,7 @@ Data Structures
     - Graph traversal (DFS, BFS)
     - Advanced Topics in DSA
 
-Dynamic programming
+15. Dynamic programming
     - Big O notation and complexity
     - Recursion and memoization
     - Greedy Algorithms and Bit Manipulation
