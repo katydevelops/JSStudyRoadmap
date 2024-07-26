@@ -1,0 +1,55 @@
+Introduction to Data Types
+
+In JavaScript, there are seven primitive data types and one complex data type (Object). TypeScript extends these with additional types.
+
+    Primitive:
+        1. String
+        2. Number
+        3. Boolean
+            - 0 will cast to false
+            - 1 will cast to true
+        4. Undefined
+            - Represents an uninitialized or non-existent value
+        5. Null
+            - Represents an intentionally empty or non-existent value
+        6. Symbol
+            - Represents a unique identifier
+            - Introduced in ECMAScript 2015 (ES6)
+        7. BigInt
+            - Represents an integer with arbitrary precision
+            - Introduced in ECMAScript 2020 (ES11)
+
+Complex Data Types
+    Object
+        - Represent a collection of key-value pairs
+        - Keys are strings or symbols, values can be any data type
+
+        Object methods:
+            - Object.keys(): returns an array of keys
+            - Object.values(): returns an array of values
+            - Object.entries(): returns an array of key-value pairs
+
+
+    let person = {
+    name: 'Katy',
+    age: 33
+    occupation: 'Software Engineer'
+    };
+    console.log(person.name); // Output: Katy
+
+    Array
+        - An array is a special type of object in JavaScript
+        - Represent an ordered collection of values
+        - Values can be of any data type
+
+Data Structures in TypeScript
+    Tuple
+        - Typed array with a pre-defined length and types for each index
+        - Represent an ordered collection of values with a fixed length
+        - Values can be any data type
+        - A good practice is making a tuple readonly in order to prevent a loss of type safety with newly added items 
+
+    let exampleTuple: readonly [number, boolean, string];
+
+    exampleTuple = [7, true, 'Katy says hi!'];
+    
