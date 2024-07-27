@@ -62,3 +62,19 @@ Data Structures in TypeScript
 
     const graph: [number, number] = [55, 77];
     const [x, y] = graph; // Console.logging graph will 
+
+    Enum
+        - Enums in TypeScript are a way to define a set of named values that have underlying numeric or string values
+        - Enums are useful when you need to define a set of distinct values that have a particular meaning in your code
+        - Enums can be either numeric or string values - if you don't specify a value, the enum will be assigned a numeric value starting from 0
+        - Enums are best when you want to to restrict the values that can be assigned to a variable or property or have code that is self-documenting (makeing it clear what values are allowed)
+        - Example use cases are Status Codes, Error Codes and Configuration Options
+
+        enum Status {
+            Pending = 1,
+            InProgress = 2,
+            Completed = 3
+        }
+
+
+
