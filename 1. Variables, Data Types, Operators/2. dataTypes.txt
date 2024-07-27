@@ -47,9 +47,18 @@ Data Structures in TypeScript
         - Typed array with a pre-defined length and types for each index
         - Represent an ordered collection of values with a fixed length
         - Values can be any data type
-        - A good practice is making a tuple readonly in order to prevent a loss of type safety with newly added items 
+        - A good practice is making a tuple readonly in order to prevent a loss of type safety with newly added items; this makes tuple immutable
+        - Tuples are a very effective choice when a function needs to return multiple values of different types
+            - Tuples are ideal for representing fixed-sized data structures, i.e. RBG color or coordinates
+            - Tuples can also be passed as parameters to functions, ensuring the function receives a fixed number of arguments of specific types
+            - TypeScript 3.0 now allows optional elements for tuples 
+        - INTERESTING FACT: In React, the UseState hook returns a tuple of the value and a setter function
 
     let exampleTuple: readonly [number, boolean, string];
 
     exampleTuple = [7, true, 'Katy says hi!'];
     
+    Since tuples are arrays - they can also be destructured 
+
+    const graph: [number, number] = [55, 77];
+    const [x, y] = graph; // Console.logging graph will 
